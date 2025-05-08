@@ -7,6 +7,7 @@ class CineQuizApplication : Application() {
         super.onCreate()
 
         // Initialize the CloudStorageProvider with application context
+        //or do whatever
         CloudStorageProvider.initialize(this)
     }
 }
